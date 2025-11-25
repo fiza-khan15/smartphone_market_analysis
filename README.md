@@ -69,3 +69,14 @@ $$\text{Value Score} = \left( \frac{\text{Rating}}{\text{Price}} \right) \times 
 1. Clone the repository:
    ```bash
    git clone [https://github.com/yourusername/smartphone-analysis.git](https://github.com/yourusername/smartphone-analysis.git)
+
+Install dependencies:
+pip install pandas matplotlib numpy
+
+Run the notebooks in order:
+
+Start with data_collection (if you need fresh data).
+
+Run data_cleaning to generate the CSV.
+
+Run data_analysis to see the insights.
